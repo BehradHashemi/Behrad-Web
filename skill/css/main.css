@@ -1,0 +1,100 @@
+.main {
+    display: flex;
+    margin: 20px 10px 10px 10px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background: var(--color1);
+    opacity: 0.9;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--color2);
+}
+
+.skills h1 {
+    font-size: 40px;
+    border-bottom-style: solid;
+}
+
+.container {
+    width: 100%;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color3);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--color2);
+}
+
+.html {
+    width: 90%;
+    padding-left: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #04AA6D;
+}
+
+.css {
+    width: 75%;
+    padding-left: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 60%;
+    padding-left: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #f44336;
+}
+
+.git {
+    width: 85%;
+    padding-left: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #808080;
+}
+
+.collapsible {
+    font-size: 20px;
+    width: 100%;
+    padding: 18px;
+    margin-top: 10px;
+    border: none;
+    text-align: right;
+    outline: none;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family: 'Yekan';
+    color: var(--color1);
+    background-color: var(--color3);
+}
+
+.active,
+.collapsible:hover {
+    color: var(--color2);
+    background-color: var(--color4);
+}
+
+.content {
+    text-align: justify;
+    font-size: 20px;
+    padding: 5px 18px;
+    visibility: hidden;
+    overflow: hidden;
+    background-color: var(--color3);
+    color: var(--color1);
+    transition: max-height 0.2s ease-out;
+}

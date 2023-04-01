@@ -1,0 +1,61 @@
+.menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu span {
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+    border-radius: 5px;
+    background: var(--color2);
+    transition: 0.4s;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    background-color: var(--color1);
+    overflow-x: hidden;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.overlay-content {
+    opacity: 1;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: var(--color3);
+}
+
+.change .bar1 {
+    transform: translate(0, 5px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}

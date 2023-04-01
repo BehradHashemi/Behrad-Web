@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: var(--color1);
+    opacity: 1;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: var(--color2);
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo-name {
+    font-size: 25px;
+    color: var(--color2);
+    font-weight: bold;
+    text-align: center;
+}
+
+nav {
+    margin-right: 40px;
+}
+
+.navbar nav li a {
+    transition: all .3s;
+    text-shadow: 2px 2px 2px var(--color2);
+}
+
+.navbar nav li a:hover {
+    color: var(--color2);
+    opacity: 1;
+}
+
+.navbar ul:hover a {
+    opacity: .25;
+}

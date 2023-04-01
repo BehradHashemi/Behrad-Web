@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('./Yekan-Font-master/Yekan.eot');
+    /* IE9 Compat Modes */
+    src: url('./Yekan-Font-master/?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('./Yekan-Font-master/Yekan.woff2') format('woff2'),
+        /* Modern Browsers */
+        url('./Yekan-Font-master/Yekan.woff') format('woff'),
+        /* Modern Browsers */
+        url('./Yekan-Font-master/Yekan.otf') format('opentype'),
+        /* Open Type Font */
+        url('./Yekan-Font-master/Yekan.ttf') format('truetype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: IranSans;
+    src: url(../font/IranianSans.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Wallpoet&display=swap');

@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Yekan';
+    box-sizing: border-box;
+    background: url("/picture/background.webp");
+    background-size: cover;
+    background-repeat: round;
+    background-attachment: fixed;
+}
