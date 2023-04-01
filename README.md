@@ -12,6 +12,6 @@ Input:
 
 ## Social
 
--  [Instagram](https://instagram.com/bhrad2006)
--  [Telegram](https://t.me/bhradhashemi)
--  [GitHub](https://pages.github.com/BehradHashemi)
+1  [Instagram](https://instagram.com/bhrad2006)
+2  [Telegram](https://t.me/bhradhashemi)
+3  [GitHub](https://pages.github.com/BehradHashemi)
