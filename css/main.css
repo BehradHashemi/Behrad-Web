@@ -78,3 +78,370 @@ main {
     width: 200px;
     /* height: 50%; */
 }
+
+.skills h1 {
+    font-size: 40px;
+    border-bottom-style: solid;
+}
+
+.container {
+    width: 100%;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color3);
+    color: var(--color1);
+    font-weight: bolder;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--color2);
+}
+
+.html {
+    width: 90%;
+    padding-left: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #ff5500;
+}
+
+.css {
+    width: 75%;
+    padding-left: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 60%;
+    padding-left: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #ffff00;
+}
+
+.git {
+    width: 85%;
+    padding-left: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #ff8c00;
+}
+
+.collapsible {
+    font-size: 20px;
+    width: 100%;
+    padding: 18px;
+    margin-top: 10px;
+    border: none;
+    text-align: right;
+    outline: none;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family: 'Yekan';
+    color: var(--color1);
+    background-color: var(--color3);
+}
+
+.active,
+.collapsible:hover {
+    color: var(--color2);
+    background-color: var(--color4);
+}
+
+.content {
+    text-align: justify;
+    font-size: 20px;
+    padding: 5px 18px;
+    visibility: hidden;
+    overflow: hidden;
+    background-color: var(--color3);
+    color: var(--color1);
+    transition: max-height 0.2s ease-out;
+}
+
+.project h1 {
+    font-size: 35px;
+    border-bottom-style: solid;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: 10px auto 0 auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 300px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: var(--color1);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    color: var(--color2);
+    background-color: #000000da
+}
+
+.text {
+    color: var(--color1);
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: var(--color1);
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.call h1 {
+    font-size: 40px;
+    border-bottom-style: solid;
+}
+
+form {
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.input {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+}
+
+.user-box {
+    position: relative;
+    margin: 0 20px;
+}
+
+.user-box input {
+    font-family: 'Yekan';
+    width: 100%;
+    padding: 5px 5px;
+    font-size: 14px;
+    color: var(--color2);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid var(--color2);
+    outline: none;
+    background: transparent;
+}
+
+.user-box label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    font-size: 16px;
+    color: var(--color2);
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.user-box input~label {
+    top: -20px;
+    left: 0;
+    color: var(--color5);
+    font-size: 15px;
+}
+
+.valid {
+    font-family: 'Yekan';
+    height: 20px;
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+
+textarea {
+    font-family: 'Yekan';
+    width: 100%;
+    height: 150px;
+    resize: none;
+    font-size: 15px;
+    border-color: var(--color2);
+    border-width: 1px;
+    border-radius: 15px;
+    outline: none;
+    padding: 5px 10px;
+    background: transparent;
+    color: var(--color2);
+}
+
+.submit {
+    font-family: 'Yekan';
+    width: 20%;
+    position: relative;
+    align-items: center;
+    padding: 15px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    background: var(--color5);
+    color: var(--color1);
+    font-weight: 700;
+}
+
+#snackbar1,
+#snackbar2 {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: var(--color4);
+    color: var(--color2);
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+}
+
+#snackbar1 {
+    background: green;
+}
+
+#snackbar2 {
+    background: red;
+}
+
+#snackbar1.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    cursor: none;
+}
+
+#snackbar2.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    cursor: none;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
