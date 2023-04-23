@@ -7,8 +7,25 @@
 body {
     font-family: 'Yekan';
     box-sizing: border-box;
-    background: url("/picture/background.webp");
+    background: url("../picture/background.webp");
     background-size: cover;
     background-repeat: round;
     background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray;
+    /* background: transparent; */
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color1);
+    border-radius: 5px;
 }
